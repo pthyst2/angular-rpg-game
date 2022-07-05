@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageWelcomeComponent implements OnInit {
   title: string = 'Huyền Thoại Võ Lâm';
-
+  buttons = {
+    login: {
+      label: 'Đăng Ký',
+    },
+    register: {
+      label: 'Đăng Nhập',
+    },
+  };
   constructor() {}
 
   ngOnInit(): void {}

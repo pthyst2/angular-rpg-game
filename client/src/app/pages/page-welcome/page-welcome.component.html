@@ -1,7 +1,11 @@
 <div class="welcome">
-  <h1 class="title">{{ title }}</h1>
-  <div class="buttons">
-    <button class="pointer btn-lobby">Đăng Nhập</button>
-    <button class="pointer btn-lobby">Đăng Ký</button>
+  <h1 class="mb-8 text-gameTitle text-white font-splash">{{ title }}</h1>
+  <div class="flex justify-center items-center">
+    <div class="m-2">
+      <button-base [label]="buttons.login.label"></button-base>
+    </div>
+    <div class="m-2">
+      <button-base [label]="buttons.register.label"></button-base>
+    </div>
   </div>
 </div>
